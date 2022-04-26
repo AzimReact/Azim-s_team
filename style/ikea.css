@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+
+}
+button{
+    border: none;
+}
+input{
+    outline: none;
+}
+
+/* header code */
+.header{
+    width: 1440px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.header img{
+    height: 16px;
+    position: relative;
+    right: 10px;
+}
+
+.header-text{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.header-text p{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    color: white;
+    font-style: "Raleway", sans-serif;
+}
+
+/* main code */
+.main{
+    width: 1440px;
+    height: auto;
+    padding-left: 8%;
+    padding-bottom: 20px;
+}
+.section1{
+    width: 100%;
+}
+
+.section1Divs{
+    width: 97%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    position: absolute;
+    /* position: relative; */
+    left: 45px;
+}
+
+form{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lupa{
+    width: 20px;
+    height: 20px ;
+    position: absolute;
+    left: 20px;
+}
+
+.camera{
+    width: 20px;
+    height: 20px ;
+    position: absolute;
+    right: 20px;
+}
+
+.search{
+    width: 650px;
+    height: 55px;
+    border-radius: 50px;
+    border: none;
+    padding: 12px;
+    background-color: rgba(121, 121, 121, 0.122);
+    padding-left: 50px;
+    font-size: medium;
+}
+
+.search:hover, .two button:hover{
+    background-color: lightgray;
+}
+
+.index , .store{
+    height: 20px !important;
+    display: flex;
+    flex-direction: column;
+    /* align-items: ; */
+    justify-content: space-around;
+}
+
+
+.indexMain, .storeMain{
+    font-weight: bolder;
+}
+
+.indexSub, .storeSub{
+    margin: 0px;
+    color: lightslategrey;
+    font-size: smaller;
+}
+
+.subSection{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.line{
+    width: 97%;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+/* section 1 end */
+/* section 2 start */
+
+.section2{
+    width: 97%;
+    display: flex;
+    padding-top: 50px;
+}
+
+.one{
+    width: 70%;
+    height: 500px;
+    display: flex;
+}
+
+.two{
+    width: 37%;
+    background-color: rgb(82, 82, 196);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.two-size{
+    position: relative;
+    width: 75%;
+    height: 40%;
+    top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.two h1, .two p{
+    color: white;
+}
+
+.two button{    
+    width: 70%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(39, 37, 37);
+    border-radius: 50px;
+}
+
+
+/* section 2 end */
+/* section 3 start */
+
+
+.section3{
+width: 100%;
+}
+
+.section3 h2{
+    padding: 40px 0;
+}
+
+.section3All{
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section3Mains{
+    width: 100%;
+    height: 500px; 
+}
+
+.section3Subs1{
+    background-color: aquamarine;
+    height: 300px;
+    width: 95%;
+}
+
+.section3Subs2{
+    padding-top: 20px;
+    height: 200px;
+    width: 95%;
+    position: relative;
+}
+
+.price{
+    font-size: xx-large;
+    display: flex; 
+    align-items: center; 
+}
+.price p{
+    background-color: yellow;
+
+}
+
+.addIn{
+    position: absolute;
+    right: 0px;
+}
+
+.section4{
+    width: 100%;
+}
+
+.section4Mains{
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section4Main img{
+    width: 97%;
+    height: 400px;
+}
+
+.section4Content{
+    width: 97%;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+.Alina{
+    /* width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start; */
+    padding: 20px;
+}
+.cardImages{
+    object-fit: cover;
+}
+.section4Content button{
+    margin-top: 70px;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+.section4Content img{
+    width: 40px;
+    height: 40px;
+}
+
+/* section4 end */
+/* section5 start */
+
+.section5{
+    width: 97%;
+}
+
+.section5 h2{
+    padding: 40px 0;
+}
+
+.section5Main{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(120px , auto);
+    grid-gap: 25px;
+}
+
+.grids{
+    background-color: bisque;
+}
+
+.div01{
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+
+.div02{
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.div03{
+    grid-column: 3/4;
+    grid-row: 1/5;
+}
+
+.div04{
+    grid-column: 1/2;
+    grid-row: 5/10;
+}
+
+.div05{
+    grid-column: 2/3;
+    grid-row: 4/9;
+}
+
+.div06{
+    grid-column: 3/4;
+    grid-row: 5/10;
+}
+
+.div07{
+    grid-column: 1/2;
+    grid-row: 10/15;
+}
+
+.div08{
+    grid-column: 2/3;
+    grid-row: 9/14;
+}
+
+.div09{
+    grid-column: 3/4;
+    grid-row: 10/15;
+}
+
+.div10{
+    grid-column: 1/2;
+    grid-row: 15/20;
+}
+
+.div11{
+    grid-column: 2/3;
+    grid-row: 14/19;
+}
+
+.div12{
+    grid-column: 3/4;
+    grid-row: 15/20;
+}
+
+.div13{
+    grid-column: 1/2;
+    grid-row: 20/25;
+}
+
+.div14{
+    grid-column: 2/3;
+    grid-row: 19/24;
+}
+
+.div15{
+    grid-column: 3/4;
+    grid-row: 20/25;
+}
+
+footer{
+    width: 1440px;
+    background-color: aliceblue;
+    padding-top: 80px;
+}
+
+.one-two{
+    padding-left: 8%;
+}
+
+.footerMain{
+    width: 97%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.footerDivs1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+.footerDivs2{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.footerDivs1 p, .footerDivs2 p{
+    color: rgb(79, 75, 75);
+}
+
+.footerDivs1 button{
+    width: auto;
+    height: 40px;
+    border-radius: 50px;
+    background-color: black;
+    padding: 12px;
+}
+
+.footerButton{
+    color: aliceblue;
+}
+
+.footerline{
+    width: 97%;
+    border-bottom: 1px solid rgb(88, 88, 88);
+}
+
+.under{
+    padding-top: 20px;
+    padding-left: 8%;
+    width: 97%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.underMain{
+    width: 30%;
+}
+
+.underSub{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+/* .underSub{
+    width: 10%;
+} */
